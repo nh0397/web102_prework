@@ -36,13 +36,13 @@ function addGamesToPage(games) {
         const newDiv = document.createElement("div");
 
         // add the class game-card to the list
-        newDiv.classList.add("game-card") 
+        newDiv.classList.add("game-card")
 
         // set the inner HTML using a template literal to display some info 
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-        newDiv.innerHTML=`
+        newDiv.innerHTML = `
         <img class="game-img" src="${games[i]["img"]}"/>
         <p>${games[i]["name"]}</p>
         <p>${games[i]["description"]}</p>
@@ -80,7 +80,7 @@ const raisedCard = document.getElementById("total-raised");
 const totalRaised = GAMES_JSON.reduce((total, game) => total + game.pledged, 0);
 const formattedNumberRaised = totalRaised.toLocaleString('en-US', { style: 'decimal' });
 // set inner HTML using template literal
-raisedCard.innerHTML= `${formattedNumberRaised}`
+raisedCard.innerHTML = `${formattedNumberRaised}`
 
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
@@ -155,7 +155,7 @@ const countOfFilteredGames = filteredGames.reduce((count, game) => count + 1, 0)
 
 
 // create a string that explains the number of unfunded games using the ternary operator
-let printStr = `<p>A total of $${formattedNumberRaised} has been raised for ${GAMES_JSON.length-countOfFilteredGames} games. Currently, ${countOfFilteredGames} ${countOfFilteredGames == 1 ? "game remains" : "games remain" } unfunded. We need your help to fund these amazing games!</p>`
+let printStr = `<p>A total of $${formattedNumberRaised} has been raised for ${GAMES_JSON.length - countOfFilteredGames} games. Currently, ${countOfFilteredGames} ${countOfFilteredGames == 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!</p>`
 
 // Create a new DOM element containing the template string
 const newElement = document.createElement('div');

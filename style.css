@@ -32,7 +32,9 @@ body {
     text-align: center;
 }
 
-#num-contributions, #total-raised, #num-games {
+#num-contributions,
+#total-raised,
+#num-games {
     font-size: 50px;
 }
 
@@ -74,12 +76,12 @@ button {
     border-radius: 7px;
 }
 
-.stats-containers{
+.stats-containers {
     display: flex;
     align-items: center;
 }
 
-.stats-container:hover{
-    box-shadow:0 0 30px lightblue;
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
     cursor: pointer;
 }
