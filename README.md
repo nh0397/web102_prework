@@ -17,13 +17,13 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ x ] Added cursor and boxshadow CSS properties to buttons for a better UX
+* [ x ] Added cursor and box-shadow CSS properties to buttons for a better UX
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://github.com/codepath/web102_prework/blob/main/codepath.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://github.com/nh0397/web102_prework/blob/main/codepath.gif?raw=true" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Peek on linux.
